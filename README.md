@@ -1,7 +1,7 @@
-🚀 TAILWIND-CSS-WEB-PAGE-CLONE
+## 🚀 TAILWIND-CSS-WEB-PAGE-CLONE
    A responsive PW skills clone built with HTML5 and Tailwind CSS for responsiveness to understand a frontend framework.
 
-📂 What I Built (Chronological Summary)
+## 📂 What I Built (Chronological Summary)
 • Project Setup: Initialized the project with HTML5 boilerplate. Integrated Tailwind CSS for styling. Configured the viewport meta tags to ensure proper mobile    
   responsiveness across devices.
 
@@ -15,12 +15,27 @@
 
 • Footer Implementation: Developed a 3-column footer structure. Included link sections for "PW Skills" and "Products". Added hover states for navigation links to    improve interactivity.
 
-💻 How to Run Locally
-  Clone the repository:
- 
-  Bash
-  git clone https://github.com/OmDas123/REACT-NATIVE-PROJECTS
-  Steps
+##🛠 Tech Stack
+  Across this project, I am actively working with:
+ • HTML5: Structure of the web page.
+ • Tailwind CSS: Rapid UI styling and responsive framework.
+ • JavaScript: Logic for the mobile menu toggle.
+ • SVG Icons: Scalable vector icons for high-quality visuals.
+
+##💡 Key Design Patterns Used
+   ► Mobile-First Design: Ensuring elements stack vertically on mobile and expand into rows on larger screens.
+   ► State Management: Using hidden/block classes and JavaScript classList.toggle to handle UI states.
+   ► Layout Consistency: Using Flexbox and CSS Grid to handle complex alignments and equal-height containers.
+
+##💻 How to Run Locally
+If you want to explore the code or run these projects on your local machine:
+
+ **Clone the repository:**
+   ```bash
+   git clone [https://github.com/OmDas123/REACT-NATIVE-PROJECTS]
+
+## Steps
+  
   Open Terminal and run: npm create vite@latest
   Enter your project name (of your choice).
   Select React, then JavaScript, and press Enter.
@@ -55,14 +70,4 @@
   plugins: [],
 }
 
-🛠 Tech Stack
-  Across this project, I am actively working with:
- • HTML5: Structure of the web page.
- • Tailwind CSS: Rapid UI styling and responsive framework.
- • JavaScript: Logic for the mobile menu toggle.
- • SVG Icons: Scalable vector icons for high-quality visuals.
 
-💡 Key Design Patterns Used
-   ► Mobile-First Design: Ensuring elements stack vertically on mobile and expand into rows on larger screens.
-   ► State Management: Using hidden/block classes and JavaScript classList.toggle to handle UI states.
-   ► Layout Consistency: Using Flexbox and CSS Grid to handle complex alignments and equal-height containers.
