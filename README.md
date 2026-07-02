@@ -16,16 +16,18 @@
 • Footer Implementation: Developed a 3-column footer structure. Included link sections for "PW Skills" and "Products". Added hover states for navigation links to    improve interactivity.
 
 ## 🛠 Tech Stack
-  Across this project, I am actively working with:
- • HTML5: Structure of the web page.
- • Tailwind CSS: Rapid UI styling and responsive framework.
- • JavaScript: Logic for the mobile menu toggle.
- • SVG Icons: Scalable vector icons for high-quality visuals.
+   Across this project, I am actively working with:
+  
+ * ** HTML5:** Structure of the web page.
+ * ** Tailwind CSS:** Rapid UI styling and responsive framework.
+ * ** JavaScript:** Logic for the mobile menu toggle.
+ * ** SVG Icons:** Scalable vector icons for high-quality visuals.
 
 ## 💡 Key Design Patterns Used
-   ► Mobile-First Design: Ensuring elements stack vertically on mobile and expand into rows on larger screens.
-   ► State Management: Using hidden/block classes and JavaScript classList.toggle to handle UI states.
-   ► Layout Consistency: Using Flexbox and CSS Grid to handle complex alignments and equal-height containers.
+
+   * ** Mobile-First Design:** Ensuring elements stack vertically on mobile and expand into rows on larger screens.
+   * ** State Management:** Using hidden/block classes and JavaScript classList.toggle to handle UI states.
+   * ** Layout Consistency:** Using Flexbox and CSS Grid to handle complex alignments and equal-height containers.
 
 ## 💻 How to Run Locally
 If you want to explore the code or run these projects on your local machine:
