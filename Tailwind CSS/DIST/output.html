@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="st.css" class="css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="flex flex-wrap items-center justify-between bg-blue-200 py-4 px-6 gap-4">
+
+        <div class="text-blue-600 font-bold text-4xl whitespace-nowrap">PW Skills</div>
+
+        <nav class="flex flex-wrap items-center gap-6 text-xl">
+            <ul class="flex flex-wrap gap-6">
+                <li class="cursor-pointer hover:text-blue-600 transition-colors">
+                    <a href="#">Home</a>
+                <li class="cursor-pointer hover:text-blue-600 transition-colors">
+                    <a href="#">Contact</a>
+                <li class="cursor-pointer  hover:text-blue-600 transition-colors">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+
+            <button class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-500 transition-colors">
+                Login/SignUp
+            </button>
+        </nav>
+    </header>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('nav-menu');
+
+        btn.addEventListener('click', () => {
+
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+    <header class="w-full h-auto">
+        <picture>
+            <source media="(min-width: 768px)"
+                srcset="https://imgs.search.brave.com/m9Q_gdPi1-FtuQM5equH1iMTBtTEyyCsKoAyxDsVyaQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzYyLzQyLzk1/LzM2MF9GXzQ2MjQy/OTUzOV9MNnZSRHkw/MHdhRTczZTd2VFF4/azEyNnV5cUxXcmto/ZS5qcGc">
+
+            <img class="w-full"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcn0OQ04D0M0ynDyiMAtIU-1HXa5jT-H4Awlfjxm_rhrnOyIkEjt6jPsw&s=10"
+                alt="Banner">
+        </picture>
+    </header>
+
+
+    <section class="bg-slate-900 py-16 px-6 w-full">
+
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-indigo-400 mb-4 tracking-wide">
+                "Pure Hardwork, No Shortcuts!"
+            </h2>
+            <div class="w-32 h-1.5 bg-yellow-400 mx-auto rounded-full"></div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-24">
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-24">
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-slate-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-14 h-14 text-slate-700">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-3xl md:text-4xl font-bold mt-6">600+</h3>
+                <p class="text-slate-400 text-lg font-medium mt-1">Different Courses</p>
+            </div>
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-slate-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-14 h-14 text-slate-700">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-3xl md:text-4xl font-bold mt-6">700,000+</h3>
+                <p class="text-slate-400 text-lg font-medium mt-1">Students Enrolled</p>
+            </div>
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-slate-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-14 h-14 text-slate-700">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-3xl md:text-4xl font-bold mt-6">10,000+</h3>
+                <p class="text-slate-400 text-lg font-medium mt-1">Successful Transition</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="bg-[#0b0e27] py-16 px-6 w-full font-sans">
+
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-bold text-indigo-400 mb-4 tracking-wide">
+                Our Products
+            </h2>
+            <div class="w-32 h-1.5 bg-yellow-400 mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-6 text-slate-800 group-hover:scale-105 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-12 h-12">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-2xl font-bold mb-3">PW Skills Lab</h3>
+                <p class="text-slate-400 text-sm leading-relaxed flex-grow">Supercharge your project Development with
+                    our robust lab</p>
+            </div>
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-6 text-slate-800 group-hover:scale-105 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-12 h-12">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-2xl font-bold mb-3">Job Portal</h3>
+                <p class="text-slate-400 text-sm leading-relaxed flex-grow">Use exceptional templates for a stand-out
+                    resume minus the sign up process</p>
+            </div>
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-6 text-slate-800 group-hover:scale-105 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-12 h-12">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-2xl font-bold mb-3">Experience</h3>
+                <p class="text-slate-400 text-sm leading-relaxed flex-grow">PW Skill's self-paced experience portal
+                    priorities hands-on training with 570+ internship projects</p>
+            </div>
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-6 text-slate-800 group-hover:scale-105 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-12 h-12">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-2xl font-bold mb-3">Affiliate</h3>
+                <p class="text-slate-400 text-sm leading-relaxed flex-grow">Explore affiliate marketing opportunities
+                    with PW skills and attain financial freedom</p>
+            </div>
+
+            <div
+                class="flex flex-col items-center text-center p-6 border-2 border-transparent hover:border-white rounded-2xl transition-all duration-300 cursor-pointer group h-full">
+                <div
+                    class="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-6 text-slate-800 group-hover:scale-105 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-12 h-12">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                    </svg>
+                </div>
+                <h3 class="text-white text-2xl font-bold mb-3">Hall of Fame</h3>
+                <p class="text-slate-400 text-sm leading-relaxed flex-grow">Our students placements and 100K+ career
+                    transitions speak volumes about our courses</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-16 px-6 w-full border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+
+            <div class="flex flex-col">
+                <div class="text-white text-3xl font-extrabold tracking-wide mb-6">
+                    PW <span class="text-indigo-400">Skills</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-4">
+                    <span class="font-bold text-white">Email us:</span> support@pwskills.com
+                </p>
+            </div>
+
+            <div class="flex flex-col">
+                <h3 class="text-white text-xl font-bold mb-3">PW Skills</h3>
+                <div class="w-16 h-1 bg-yellow-400 mb-6"></div>
+
+                <ul class="flex flex-col gap-3 text-slate-400 text-sm">
+                    <li><a href="#" class="hover:text-white transition-colors">About US</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">FAQs</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col">
+                <h3 class="text-white text-xl font-bold mb-3">Products</h3>
+                <div class="w-16 h-1 bg-yellow-400 mb-6"></div>
+
+                <ul class="flex flex-col gap-3 text-slate-400 text-sm">
+                    <li><a href="#" class="hover:text-white transition-colors">PW Skills Lab</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Job Portal</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Experience Portal</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Become an affiliate</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Hall of fame</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
