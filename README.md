@@ -17,7 +17,7 @@
 
 💻 How to Run Locally
   Clone the repository:
-
+ 
   Bash
   git clone https://github.com/OmDas123/REACT-NATIVE-PROJECTS
   Steps
